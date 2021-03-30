@@ -73,3 +73,13 @@
     * 컨테이너를 추가하거나 이동하기 위해 OS를 부팅할 필요가 없으므로 배포 시간이 크게 단축
     * 배포 속도가 빨라 컨테이너에서 생성된 데이터를 비용 효율적으로 쉽게 생성하고 삭제할 수 있다.
     
+* Docker 이미지 빌드
+ ```
+ docker build -t imagename:n.n
+ ```
+* Docker 이미지 배포
+```
+docker login
+docker tag imagename:n.n dockerAcount/imagename:n.n
+```
+
