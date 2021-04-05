@@ -10,7 +10,7 @@ services:
         volumes:
             - ./mysql/data:/var/lib/mysql
         environment: 
-            MYSQL_ROOT_PASSWORD: `1q2w3e4r
+            MYSQL_ROOT_PASSWORD: "`1q2w3e4r"
             MYSQL_USER: seongho
-            MYSQL_PASSWORD: `1q2w3e4r
+            MYSQL_PASSWORD: "`1q2w3e4r"
             MYSQL_DATABASE: db
